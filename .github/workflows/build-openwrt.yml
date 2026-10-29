@@ -1,4 +1,4 @@
-name: Build RK3128 OpenWrt Print Server
+start buildname: Build RK3128 OpenWrt Print Server
 on:
   push:
     branches: [main]
