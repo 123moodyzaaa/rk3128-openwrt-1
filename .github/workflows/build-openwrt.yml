@@ -1,10 +1,10 @@
-start buildname: Build RK3128 OpenWrt Print Server
+name: Build RK3128 OpenWrt Print Server
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
-jobs:
+  jobs:
   build:
     runs-on: ubuntu-22.04
     permissions:
